@@ -1,0 +1,27 @@
+{
+  "name": "itechpk/brandedsms",
+  "description": "Public API for sending SMS via BrandedSMS.Pk Service.",
+  "license": "MIT",
+  "keywords": ["itechpk" , "brandedsms" , "pakistan" , "mobile"],
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Khizar Naeem",
+      "email": "khizarnaeeem0332@gmail.com"
+    },
+	{
+      "name": "Umar Cheema",
+      "email": "umertoday@gmail.com"
+    },
+	{
+      "name": "Ashif Zubair",
+      "email": "ashifzubair@visititech.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Itechpk\\Brandedsms\\": "src/"
+    }
+  }
+}
