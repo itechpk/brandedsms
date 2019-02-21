@@ -18,7 +18,7 @@ use Itechpk\Brandedsms\BrandedSms;
 //Configuration
 $userId = "USER_ID";
 $key = "SECRET_KEY";
-$mask = "MASk";
+$mask = "MASK";
 
 //Sms Data
 $mobileNo = "92333xxxxxxx";
@@ -30,13 +30,14 @@ $sms = new BrandedSms();
 //setting configuration
 $sms->config($userId , $key , $mask);
 //sending sms
-$trueOrFalse = $sms->send($mobileNo , $msg);
+$sent = $sms->send($mobileNo , $msg);
 
-if($trueOrFalse)
+if($sent)
 {
 	echo "Sms send.";
 }
-else {
+else 
+{
 	//$lastCode = null;
     //$lastReply = null;
     //$lastId = null;
