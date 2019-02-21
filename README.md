@@ -1,12 +1,18 @@
+
 # BrandedSMS.Pk (for Pakistan Mobile Networks)
 Public API for sending SMS via BrandedSMS.Pk Service.
+
+# Installation
+
+```
+composer require itechpk/brandedsms
+```
 
 # PHP Code 
 ```php
 require_once("./vendor/autoload.php");
 
 use Itechpk\Brandedsms\BrandedSms;
-
 
 
 //Configuration
